@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 2590610903256799699}
   - component: {fileID: 2590610903256799698}
   - component: {fileID: 2590610903256799692}
+  - component: {fileID: 1331092900720883711}
   - component: {fileID: 8217337928131142295}
-  - component: {fileID: 9085137446627155763}
   - component: {fileID: 2590610903256799693}
   - component: {fileID: 2860829223222755427}
   m_Layer: 0
@@ -103,6 +103,20 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
+--- !u!114 &1331092900720883711
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2590610903256799695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e98e1db90dd78454e9f2f9a5b2de6154, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam_trans: {fileID: 2590610904179608502}
+  cam: {fileID: 2590610904179608497}
 --- !u!114 &8217337928131142295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -116,29 +130,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam_trans: {fileID: 2590610904179608502}
-  cam: {fileID: 2590610904179608497}
   player_body: {fileID: 2590610903256799692}
   foot_s: {fileID: 2860829223222755427}
-  can: {fileID: 877815526739401610, guid: 135143fa5ba7b7c4bb9bc47dd347591c, type: 3}
   walkspeed: 1.5
   runspeed: 3
+  max_speed: 10
   jump_speed: 5
   max_health: 100
   health: 100
   jumping: 1
   can_die: 1
---- !u!114 &9085137446627155763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2590610903256799695}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5fe16126d99f1f5499551fbe15205044, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!136 &2590610903256799693
 CapsuleCollider:
   m_ObjectHideFlags: 0

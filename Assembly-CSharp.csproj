@@ -58,7 +58,8 @@
   <ItemGroup>
     <Compile Include="Assets\player\dead.cs" />
     <Compile Include="Assets\player\player.cs" />
-    <Compile Include="Assets\blackmagic.cs" />
+    <Compile Include="Assets\throw_script.cs" />
+    <Compile Include="Assets\player\lookscript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
